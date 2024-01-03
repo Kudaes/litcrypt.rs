@@ -68,10 +68,34 @@ impl<'a> Iterator for InfiniteByteIterator<'a> {
 }
 
 fn next_index(index: usize, count: usize) -> usize {
-    if index + 1 < count {
-        index + 1
-    } else {
-        0
+    if index + 2 < count 
+    {
+        index + 2
+    } 
+    else 
+    {
+        if count % 2 == 0
+        {
+            if index + 2 == count
+            {
+                1
+            }
+            else
+            {
+                0
+            }
+        }
+        else
+        {
+            if index + 2 == count
+            {
+                0
+            }
+            else
+            {
+                1
+            }
+        }
     }
 }
 
