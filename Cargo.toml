@@ -1,7 +1,7 @@
 [package]
 name = "litcrypt2"
 authors = ['Robin Syihab (r@ansvia.com)', 'Kurosh Dabbagh Escalante (@_Kudaes_)']
-version = "0.1.2"
+version = "0.1.3"
 description = "Let's encrypt your string statically during compile time"
 license = "Apache-2.0"
 repository = "https://github.com/Kudaes/litcrypt.rs"

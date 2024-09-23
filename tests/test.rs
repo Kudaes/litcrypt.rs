@@ -1,6 +1,8 @@
 #[macro_use]
 extern crate litcrypt2;
 
+extern crate alloc;
+
 use_litcrypt!("MY-SECRET-SPELL");
 
 #[test]
