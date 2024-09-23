@@ -14,7 +14,7 @@ Dependencies:
 
 ```rust
 [dependencies]
-litcrypt2 = "0.1.2"
+litcrypt2 = "0.1.3"
 ```
 
 Example:
