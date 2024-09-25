@@ -17,13 +17,21 @@ Dependencies:
 litcrypt2 = "0.1.3"
 ```
 
+To use this crate it is required to bring into scope the `alloc` crate adding the following line to your code:
+
+```rust
+extern crate alloc;
+``` 
+
 Example:
 
 ```rust
 #[macro_use]
 extern crate litcrypt2;
-
 use_litcrypt!();
+
+extern crate alloc;
+
 
 fn main()
 {
