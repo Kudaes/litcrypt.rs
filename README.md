@@ -14,7 +14,7 @@ Dependencies:
 
 ```rust
 [dependencies]
-litcrypt2 = "0.1.3"
+litcrypt2_nostd = "0.1.0"
 ```
 
 To use this crate it is required to bring into scope the `alloc` crate adding the following line to your code:
@@ -27,7 +27,7 @@ Example:
 
 ```rust
 #[macro_use]
-extern crate litcrypt2;
+extern crate litcrypt2_nostd;
 use_litcrypt!();
 
 extern crate alloc;

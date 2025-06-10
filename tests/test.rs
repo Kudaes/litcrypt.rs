@@ -1,5 +1,5 @@
 #[macro_use]
-extern crate litcrypt2;
+extern crate litcrypt2_nostd;
 
 extern crate alloc;
 
